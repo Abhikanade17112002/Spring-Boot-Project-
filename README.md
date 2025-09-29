@@ -107,7 +107,7 @@ All endpoints are **prefixed with** `/api/students`.
 ## 🧪 Postman Collection
 A full Postman collection is included for testing the API.
 
-👉 [Download Postman Collection](Student%20Management%20Project.postman_collection.json)  
+👉 [Download Postman Collection]([Student%20Management%20Project.postman_collection.json](https://github.com/Abhikanade17112002/Spring-Boot-Project-/blob/dev/src/main/resources/static/Student%20Management%20Project.postman_collection.json))  
 
 You can import it into Postman to test all endpoints directly.
 
