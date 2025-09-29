@@ -72,16 +72,16 @@ It supports full **CRUD operations**: Create, Read, Update, and Delete students,
 ![Save Student](https://raw.githubusercontent.com/Abhikanade17112002/Spring-Boot-Project-/dev/src/main/resources/static/Save_Student.png)
 
 ### 🔹 Get All Students
-![Get All Students](https://raw.githubusercontent.com/Abhikanade17112002/Spring-Boot-Project-/dev/src/main/resources/static/Get_All_Students.png)
+![Get All Students](https://github.com/Abhikanade17112002/Spring-Boot-Project-/blob/dev/src/main/resources/static/Get_All_Students_List.png)
 
 ### 🔹 Get Student With Id
 ![Get Student With Id](https://raw.githubusercontent.com/Abhikanade17112002/Spring-Boot-Project-/dev/src/main/resources/static/Get_Student_With_Id.png)
 
 ### 🔹 Update Student With Id
-![Update Student With Id](https://raw.githubusercontent.com/Abhikanade17112002/Spring-Boot-Project-/dev/src/main/resources/static/Update_Student_With_Id.png)
+![Update Student With Id](https://github.com/Abhikanade17112002/Spring-Boot-Project-/blob/dev/src/main/resources/static/Update_Student_By_Id.png)
 
 ### 🔹 Replace Student With Id
-![Replace Student With Id](https://raw.githubusercontent.com/Abhikanade17112002/Spring-Boot-Project-/dev/src/main/resources/static/Replace_Student_With_Id.png)
+![Replace Student With Id](https://github.com/Abhikanade17112002/Spring-Boot-Project-/blob/dev/src/main/resources/static/Replace_Student_With%20_ID.png)
 
 ### 🔹 Delete Student With Id
 ![Delete Student With Id](https://raw.githubusercontent.com/Abhikanade17112002/Spring-Boot-Project-/dev/src/main/resources/static/Delete_Student_With_Id.png)
