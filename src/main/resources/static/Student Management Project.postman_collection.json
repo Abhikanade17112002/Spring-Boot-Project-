@@ -1,0 +1,212 @@
+{
+	"info": {
+		"_postman_id": "9f30dfa5-5665-488f-b1f8-6da4f6feff1d",
+		"name": "Student Management Project",
+		"description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48391285",
+		"_collection_link": "https://abhishek-kanade-6886911.postman.co/workspace/Abhishek-Kanade's-Workspace~3c02ce06-445c-4e90-85d6-2cc70568183d/collection/48391285-9f30dfa5-5665-488f-b1f8-6da4f6feff1d?action=share&source=collection_link&creator=48391285"
+	},
+	"item": [
+		{
+			"name": "Get Student",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-CSRF-TOKEN",
+						"value": "zivWBaiNKZCYqGpZivv3IoHFBSkaSsfx4kO5bxjW63rcvIno-03lZJq1HKm1ng9r79bDRuSnKEh8ff7c0HrcXX2w2kzthLvY",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"name\":\"Abhishek\" ,\r\n   \"age\":22 \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\" : \"Aniket\" ,\r\n    \"lastName\" : \"Patil\",\r\n    \"email\":\"aniket.patil@encora.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Student With Id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\" : \"Abhishek\" ,\r\n    \"lastName\" : \"Kanade\",\r\n    \"email\":\"abhikanade301@gmail.com\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/students/358bc881-8f87-4f2e-9541-3e35f1f4c527",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"students",
+						"358bc881-8f87-4f2e-9541-3e35f1f4c527"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Student By Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/students/358bc881-8f87-4f2e-9541-3e35f1f4c527",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"students",
+						"358bc881-8f87-4f2e-9541-3e35f1f4c527"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Replace Student By Id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"studentId\": \"5a4c0c56-88e2-4650-9c23-f31ca747e3eb\",\r\n    \"firstName\" : \"Dr.Malhar\" ,\r\n    \"lastName\" : \"Wankhede\",\r\n    \"userName\": \"Malhar.Wankhede@256\",\r\n    \"email\": \"malhar.Wankhede@encora.com\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/students/358bc881-8f87-4f2e-9541-3e35f1f4c527",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"students",
+						"358bc881-8f87-4f2e-9541-3e35f1f4c527"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Student With Id",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"studentId\": \"5a4c0c56-88e2-4650-9c23-f31ca747e3eb\",\r\n    \"firstName\" : \"Malhaaar\" \r\n   \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/students/358bc881-8f87-4f2e-9541-3e35f1f4c527",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"students",
+						"358bc881-8f87-4f2e-9541-3e35f1f4c527"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
